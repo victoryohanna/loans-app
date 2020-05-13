@@ -6,6 +6,6 @@ const startApp = async () => {
 
   const programName = await app();
   header.textContent = programName;
-};
+};     
 
 document.addEventListener('DOMContentLoaded', startApp);
